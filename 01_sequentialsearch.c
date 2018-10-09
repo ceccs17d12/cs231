@@ -1,3 +1,9 @@
+/*
+ * 01
+ * Sequential Search
+ * Name : Arun R
+ * 
+ */
 #include <stdio.h>
 int sequentialSearch(int array[], int size, int element) {
 	int i;
