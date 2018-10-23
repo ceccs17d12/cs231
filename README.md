@@ -37,7 +37,7 @@ CS231 lab projects
   #### Binary tree operations: creation, insertion, deletion, traversal (32-33)  
  - [ ] 32: Using LL  
  - [ ] 33: Using array  
-  #### Hashing operations: creation, insertion, deletion (34-39)  
+  #### Hashing operations: creation, insertion, deletion (34-39)
  - [ ] 34: Using mapping function 1  
  - [ ] 35: Using mapping function 2  
  - [ ] 36: Using collision resolution scheme 1  
