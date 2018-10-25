@@ -1,3 +1,9 @@
+/*
+ *
+ * 10 Binary Search
+ * Name : Arun R
+ * Roll No.: 12
+ */
 #include <stdio.h>
 int selectionSort(int array[], int size) {
 	int i, j, pos, temp;
