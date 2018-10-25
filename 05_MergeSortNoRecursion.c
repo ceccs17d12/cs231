@@ -1,3 +1,9 @@
+/*
+ *
+ * 05 Merge Sort: Non Recursive
+ * Name : Arun R
+ * Roll No.: 12
+ */
 #include <stdio.h>
 int main()
 {
