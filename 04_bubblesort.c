@@ -1,3 +1,9 @@
+/*
+ *
+ * 04 Bubble Sort
+ * Name : Arun R
+ * Roll No.: 12
+ */
 #include <stdio.h>
 int bubbleSort(int array[], int size) {
 	int i, j, temp;
