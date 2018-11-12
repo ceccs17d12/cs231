@@ -13,14 +13,14 @@ CS231 lab projects
  - [ ] 09: Heap sort  
  - [X] 10: Binary search  
   #### Linked list implementation and search, delete, insert operations (11 - 14)
- - [ ] 11: Singly LL  
- - [ ] 12: Doubly LL  
+ - [X] 11: Singly LL  
+ - [X] 12: Doubly LL  
  - [ ] 13: Circular Singly LL  
  - [ ] 14: Circular Doubly LL  
  - [ ] 15: Representation of polynomial using LL  
  - [ ] 16: Polynomial addition  
  - [ ] 17: Polynomial multiplication  
- - [ ] 18: Implementation of stack using array  
+ - [X] 18: Implementation of stack using array  
  - [ ] 19: Stack using LL  
  - [ ] 20: Multiple stack using array  
  - [ ] 21: Representation of arithmetic expressions using linked list  
