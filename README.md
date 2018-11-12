@@ -9,7 +9,7 @@ CS231 lab projects
  - [X] 05: Merge sort: non-recursive  
  - [ ] 06: Merge sort: recursive  
  - [ ] 07: Quick sort: non-recursive  
- - [ ] 08: Quick sort: recursive  
+ - [X] 08: Quick sort: recursive  
  - [ ] 09: Heap sort  
  - [X] 10: Binary search  
   #### Linked list implementation and search, delete, insert operations (11 - 14)
