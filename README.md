@@ -3,7 +3,7 @@ CS231 lab projects
 
 ## List of experiments
  - [X] 01: Sequential search  
- - [ ] 02: Selection sort  
+ - [X] 02: Selection sort  
  - [X] 03: Insertion sort  
  - [X] 04: Bubble sort  
  - [X] 05: Merge sort: non-recursive  
