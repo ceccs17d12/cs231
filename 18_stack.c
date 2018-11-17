@@ -1,3 +1,9 @@
+/*
+ *
+ * 18 Implementation of stack using array
+ * Name : Arun R
+ * Roll No.: 12
+ */
 #include <stdio.h>
 #include <stdlib.h>
 
