@@ -28,7 +28,7 @@ CS231 lab projects
  - [ ] 23: Stack: Postfix expression evaluation  
  - [ ] 24: Stack: Infix expression evaluation  
  - [ ] 25: MAZE problem representation and solution  
- - [ ] 26: Implementation of queue using array  
+ - [X] 26: Implementation of queue using array  
  - [X] 27: Implementation of dequeue using array  
  - [ ] 28: Implementation of circular queue using array  
  - [ ] 29: Implementation of queue using LL  
