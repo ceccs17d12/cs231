@@ -15,24 +15,24 @@ CS231 lab projects
   #### Linked list implementation and search, delete, insert operations (11 - 14)
  - [X] 11: Singly LL  
  - [X] 12: Doubly LL  
- - [ ] 13: Circular Singly LL  
- - [ ] 14: Circular Doubly LL  
+ - [X] 13: Circular Singly LL  
+ - [X] 14: Circular Doubly LL  
  - [ ] 15: Representation of polynomial using LL  
  - [ ] 16: Polynomial addition  
  - [ ] 17: Polynomial multiplication  
  - [X] 18: Implementation of stack using array  
- - [ ] 19: Stack using LL  
- - [ ] 20: Multiple stack using array  
- - [ ] 21: Representation of arithmetic expressions using linked list  
- - [ ] 22: Stack: Infix to postfix conversion  
+ - [X] 19: Stack using LL  
+ - [X] 20: Multiple stack using array  
+ - [X] 21: Representation of arithmetic expressions using linked list  
+ - [X] 22: Stack: Infix to postfix conversion  
  - [ ] 23: Stack: Postfix expression evaluation  
  - [ ] 24: Stack: Infix expression evaluation  
  - [ ] 25: MAZE problem representation and solution  
  - [X] 26: Implementation of queue using array  
  - [X] 27: Implementation of dequeue using array  
  - [ ] 28: Implementation of circular queue using array  
- - [ ] 29: Implementation of queue using LL  
- - [ ] 30: Implementation of dequeue using LL  
+ - [X] 29: Implementation of queue using LL  
+ - [X] 30: Implementation of dequeue using LL  
  - [ ] 31: Implementation of circular queue using LL  
   #### Binary tree operations: creation, insertion, deletion, traversal (32-33)  
  - [ ] 32: Using LL  
