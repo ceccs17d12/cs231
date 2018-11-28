@@ -1,3 +1,9 @@
+/*
+ *
+ * 15: Representation of polynomial using LL
+ * Name : Arun R
+ * Roll No.: 12
+ */
 #include <stdio.h>
 #include <stdlib.h>
 struct node {
