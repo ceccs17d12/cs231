@@ -1,3 +1,9 @@
+/*
+ *
+ * 22: Stack: Infix to postfix conversion
+ * Name : Arun R
+ * Roll No.: 12
+ */
 #include <stdio.h>
 
 int instackPriority(char symbol) {
