@@ -7,30 +7,30 @@ CS231 lab projects
  - [X] 03: Insertion sort  
  - [X] 04: Bubble sort  
  - [X] 05: Merge sort: non-recursive  
- - [ ] 06: Merge sort: recursive  
- - [ ] 07: Quick sort: non-recursive  
+ - [X] 06: Merge sort: recursive  
+ - [X] 07: Quick sort: non-recursive  
  - [X] 08: Quick sort: recursive  
- - [ ] 09: Heap sort  
+ - [X] 09: Heap sort  
  - [X] 10: Binary search  
   #### Linked list implementation and search, delete, insert operations (11 - 14)
  - [X] 11: Singly LL  
  - [X] 12: Doubly LL  
  - [X] 13: Circular Singly LL  
  - [X] 14: Circular Doubly LL  
- - [ ] 15: Representation of polynomial using LL  
- - [ ] 16: Polynomial addition  
- - [ ] 17: Polynomial multiplication  
+ - [X] 15: Representation of polynomial using LL  
+ - [X] 16: Polynomial addition  
+ - [X] 17: Polynomial multiplication  
  - [X] 18: Implementation of stack using array  
  - [X] 19: Stack using LL  
  - [X] 20: Multiple stack using array  
  - [X] 21: Representation of arithmetic expressions using linked list  
  - [X] 22: Stack: Infix to postfix conversion  
- - [ ] 23: Stack: Postfix expression evaluation  
- - [ ] 24: Stack: Infix expression evaluation  
+ - [X] 23: Stack: Postfix expression evaluation  
+ - [X] 24: Stack: Infix expression evaluation  
  - [ ] 25: MAZE problem representation and solution  
  - [X] 26: Implementation of queue using array  
  - [X] 27: Implementation of dequeue using array  
- - [ ] 28: Implementation of circular queue using array  
+ - [X] 28: Implementation of circular queue using array  
  - [X] 29: Implementation of queue using LL  
  - [X] 30: Implementation of dequeue using LL  
  - [ ] 31: Implementation of circular queue using LL  
