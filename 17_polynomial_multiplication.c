@@ -1,3 +1,9 @@
+/*
+ *
+ * 17: Polynomial multiplication
+ * Name : Arun R
+ * Roll No.: 12
+ */
 #include <stdio.h>
 #include <stdlib.h>
 struct node {
