@@ -1,3 +1,9 @@
+/*
+ *
+ * 20: Multiple stack using array
+ * Name : Arun R
+ * Roll No.: 12
+ */
 #include <stdio.h>
 #define size 100
 
