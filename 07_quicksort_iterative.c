@@ -1,3 +1,9 @@
+/*
+ *
+ * 07: Quick sort: non-recursive
+ * Name : Arun R
+ * Roll No.: 12
+ */
 #include <stdio.h>
 
 void swap(int *a, int *b) {
