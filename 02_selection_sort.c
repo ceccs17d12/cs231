@@ -1,7 +1,7 @@
 /*
  * 
  * 02 Selection Sort
- * Author : Arun R
+ * Name : Arun R
  * Roll No.:12
  */
 
