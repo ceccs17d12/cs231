@@ -1,8 +1,8 @@
 /*
- * 02
- * Selection Sort
- * Author : Nikhil M Tomy
  * 
+ * 02 Selection Sort
+ * Author : Arun R
+ * Roll No.:12
  */
 
 #include <stdio.h>
