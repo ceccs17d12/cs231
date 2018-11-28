@@ -47,8 +47,12 @@ int printPolynomial() {
 				printf("%d", currentNode->coefficient);
 			}
 			if (currentNode->exponent != 0) {
-				printf("p^%d", currentNode->exponent);
-			}
+				printf("x^%d", currentNode->exponent);
+			} else {
+        if (currentNode->coefficient == 1) {
+          printf("1");
+        }
+      }
 			if (currentNode->next != NULL) {
 				if (currentNode->next->coefficient != 0)
 					printf(" + ");

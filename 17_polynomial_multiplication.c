@@ -39,28 +39,37 @@ int insertNodeEnd(struct node *polynomial, int exponent, int coefficient) {
 	currentNode->next = newptr;
 	return (0);
 }
-int addPolynomial(struct node *a, struct node *b, struct node *sum) {
-	struct node *ca=a->next, *cb=b->next;
-	while (ca != NULL && cb !=NULL) {
-		if (ca->exponent > cb->exponent) {
-			insertNodeEnd(sum, ca->exponent, ca->coefficient);
-			ca=ca->next;
-		} else if (ca->exponent < cb->exponent) {
-			insertNodeEnd(sum, cb->exponent, cb->coefficient);
-			cb=cb->next;
-		} else {
-			insertNodeEnd(sum, ca->exponent, ca->coefficient+cb->coefficient);
-			ca=ca->next;
-			cb=cb->next;
-		}
-	}
+int multiplyPolynomial(struct node *a, struct node *b, struct node *product) {
+	struct node *ca=a->next, *cb=b->next, *cp, *cpPrev;
+	int coefficient, exponent;
 	while (ca != NULL) {
-		insertNodeEnd(sum, ca->exponent, ca->coefficient);
-		ca=ca->next;
-	}
-	while (cb != NULL) {
-		insertNodeEnd(sum, cb->exponent, cb->coefficient);
-		cb=cb->next;
+		cb=b->next;
+		while (cb != NULL) {
+			coefficient = ca->coefficient*cb->coefficient;
+			exponent = ca->exponent+cb->exponent;
+			cp = product->next;
+			cpPrev = product;
+			while (cp != NULL) {
+				if (cp->exponent <= exponent) break;
+				cpPrev = cp;
+				cp = cp->next;
+			}
+			if (cp == NULL) {
+				insertNodeEnd(product, exponent, coefficient);
+			} else {
+				if (cp->exponent == exponent) {
+					cp->coefficient += coefficient;
+				} else if (cp->exponent < exponent) {
+					struct node *newPtr = newNode();
+					newPtr->next = cpPrev->next;
+					newPtr->exponent = exponent;
+					newPtr->coefficient = coefficient;
+					cpPrev->next = newPtr;
+				}
+			}
+			cb = cb->next;
+		}
+		ca = ca->next;
 	}
 }
 int printPolynomial(struct node *polynomial, char polynomialName) {
@@ -125,11 +134,11 @@ int main() {
 	polynomial3->exponent = 0;
 	polynomial3->next = NULL;
 
-	printf("\nAdding polynomials\n");
+	printf("\nMultiplying polynomials\n");
 	printPolynomial(polynomial1, 'P');
 	printPolynomial(polynomial2, 'Q');
 	printf("Sum\n");
-	addPolynomial(polynomial1, polynomial2, polynomial3);
+	multiplyPolynomial(polynomial1, polynomial2, polynomial3);
 	printPolynomial(polynomial3, 'R');
 
 	deleteAll(polynomial1);

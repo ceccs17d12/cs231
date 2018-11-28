@@ -1,8 +1,7 @@
 /*
  * 02
  * Selection Sort
- * Name : Arun R
- * Roll No.: !2
+ * Author : Nikhil M Tomy
  * 
  */
 
