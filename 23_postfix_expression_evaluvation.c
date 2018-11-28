@@ -1,3 +1,10 @@
+/*
+ *
+ * 23: Stack: Postfix expression evaluation
+ * Name : Arun R
+ * Roll No.: 12
+ *
+ */
 #include <stdio.h>
 #include <stdlib.h>
 int power(int base, int exponent) {
