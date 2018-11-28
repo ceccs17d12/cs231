@@ -1,3 +1,9 @@
+/*
+ *
+ * 06: Merge sort: recursive
+ * Name : Arun R
+ * Roll No.: 12
+ */
 #include <stdio.h>
 
 int merge(int a[], int l, int m, int r) {
